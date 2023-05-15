@@ -1,0 +1,15 @@
+Open the Calorie Tracker GUI by running the program.
+
+Enter your daily calorie intake and calorie goal in the input fields provided.
+
+Click the "Submit" button to calculate the remaining calories and display them in the label below.
+
+To view your progress chart, click on the "View Progress" menu item on the menu bar. This will open a new window with your progress chart.
+
+To view personalized recommendations, click on the "View Recommendations" menu item on the menu bar. This will open a new window with recommendations based on your calorie intake and goal.
+
+To close any window, click the "Back" button or close the window using the "X" button in the upper-right corner.
+
+To exit the program, close the main window using the "X" button in the upper-right corner.
+
+That's it! The Calorie Tracker GUI is a simple tool for tracking your daily calorie intake and goal, as well as viewing your progress and receiving personalized recommendations.
