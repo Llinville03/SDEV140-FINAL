@@ -1,0 +1,32 @@
+class CalorieTrackerGUI:
+    """
+    A GUI for tracking daily calorie intake and goals.
+
+    Attributes:
+        master (tk.Tk): The main window of the GUI.
+        calorie_intake_label (tk.Label): A label for the daily calorie intake input.
+        calorie_intake_entry (tk.Entry): An input field for the daily calorie intake.
+        calorie_goal_label (tk.Label): A label for the calorie goal input.
+        calorie_goal_entry (tk.Entry): An input field for the calorie goal.
+        submit_button (tk.Button): A button to submit the daily calorie intake.
+        calorie_display_label (tk.Label): A label to display the daily calorie intake and remaining calories.
+        menu_bar (tk.Menu): A menu bar with two menu items.
+
+    Methods:
+        __init__(self, master): Initializes the GUI with input fields, buttons, labels, and menu items.
+        submit_calories(self): Gets the daily calorie intake and goal from the input fields, validates the input,
+            calculates the remaining calories, and updates the display label.
+        open_progress_chart(self): Opens a new window to display a progress chart.
+        open_recommendations(self): Opens a new window to display personalized recommendations.
+
+    Raises:
+        ValueError: If the daily calorie intake or goal is not a numeric value.
+        TypeError: If the daily calorie intake or goal is not a string.
+
+    Examples:
+        # Create the main window
+        root = tk.Tk()
+
+        # Create an instance of the CalorieTracker class and start the main loop
+        app = CalorieTrackerGUI(root)
+        root.mainloop()
